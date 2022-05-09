@@ -6,7 +6,7 @@ const Featured = () => {
     <>
       <div className="flex flex-row flex-wrap justify-center gap-4 md:gap-8 lg:gap-10 mx-auto p-3 md:p-0">
         {data.map((item) => {
-          const { id, title, img, price } = item;
+          const { id, title, img, price, to } = item;
           return (
             <div
               key={id}
@@ -28,7 +28,7 @@ const Featured = () => {
 
               <div className="font-Montserrat text-left text-blue-130 font-bold flex cursor-pointer">
                 <button className="font-bold">
-                  <a href="#">View Detail</a>
+                  <a href={to}>View Detail</a>
                 </button>
                 <div className="mt-1 ml-1">
                   <MdArrowRightAlt />

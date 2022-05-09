@@ -37,7 +37,7 @@ const Home = () => {
                 <span>Location</span>
               </div>
               <div className="mt-5 md:mt-0">
-                <Button text="Book Now" className="w-full" />
+                <Button to="#" text="Book Now" className="w-full" />
               </div>
             </div>
           </div>

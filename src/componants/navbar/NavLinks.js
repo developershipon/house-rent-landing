@@ -26,7 +26,7 @@ const NavLinks = () => {
           <a href={link.link}>{link.name}</a>
         </li>
       ))}
-      <Button text="Register" />
+      <Button to="#" text="Register" />
     </>
   );
 };
