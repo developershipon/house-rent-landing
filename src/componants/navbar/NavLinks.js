@@ -4,15 +4,15 @@ const NavLinks = () => {
   const Links = [
     {
       name: "Location",
-      link: "www.fiverr.com",
+      link: "https://www.fiverr.com",
     },
     {
       name: "Blogs",
-      link: "www.google.com",
+      link: "https://www.google.com",
     },
     {
       name: "Testimoials",
-      link: "www.facebook.com",
+      link: "https://www.facebook.com",
     },
   ];
   return (
