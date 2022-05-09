@@ -10,7 +10,7 @@ const Featured = () => {
           return (
             <div
               key={id}
-              className="w-96 sm:w-72 lg:w-96 bg-white rounded-3xl p-5"
+              className="w-96 sm:w-72 lg:w-96 bg-white rounded-3xl p-5 my-5 md:my-0"
             >
               <img
                 src={img}

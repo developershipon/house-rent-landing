@@ -6,7 +6,7 @@ const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="bg-primary text-white w-full fixed mx-auto z-50">
-      <div className="container mx-auto flex justify-between py-5">
+      <div className="md:container s mx-auto flex justify-between py-5">
         <div className="flex flex-wrap items-center cursor-pointer">
           <div className="px-2">
             <Img src="image/logo.svg" />
