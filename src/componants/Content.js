@@ -6,7 +6,7 @@ import ParagraphText from "./ParagraphText";
 
 const Content = ({ order, path, head, sub, click }) => {
   return (
-    <div className="flex flex-wrap justify-between items-center">
+    <div className="flex flex-wrap justify-between items-center xl:container mx-auto">
       <div className={`w-full md:w-1/2 ${order} py-5`}>
         <Img src={`image/${path}`} alt="img" />
       </div>
