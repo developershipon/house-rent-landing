@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Button from "../Button";
 import Img from "../Img";
 import NavLinks from "./NavLinks";
 const Nav = () => {
@@ -17,7 +16,6 @@ const Nav = () => {
         </div>
         <ul className="md:flex hidden items-center gap-10">
           <NavLinks />
-          <Button text="Register" />
         </ul>
         {/* Mobile Nav */}
         <ul
@@ -26,11 +24,7 @@ const Nav = () => {
       ${open ? "right-0" : "right-[-100%]"}`}
         >
           <NavLinks />
-          <div className="">
-            <Button text="Register" />
-          </div>
         </ul>
-
         <div className="text-2xl md:hidden z-50" onClick={() => setOpen(!open)}>
           <div name={`${open ? "close" : "menu"}`}>
             <Img src="image/menu.svg" />

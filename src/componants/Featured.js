@@ -4,17 +4,17 @@ import { MdArrowRightAlt } from "react-icons/md";
 const Featured = () => {
   return (
     <>
-      <div className="flex flex-row flex-wrap justify-center lg:w-10/12 gap-8 mx-auto">
+      <div className="flex flex-row flex-wrap justify-center gap-4 md:gap-8 lg:gap-10 mx-auto p-3 md:p-0">
         {data.map((item) => {
           const { id, title, img, price } = item;
           return (
             <div
               key={id}
-              className="w-96 sm:w-72 lg:w-96 bg-white rounded-3xl p-5 my-5 md:my-0"
+              className="w-full sm:w-80 lg:w-72 xl:w-96 bg-white rounded-3xl p-5"
             >
               <img
                 src={img}
-                alt="image"
+                alt=""
                 className="rounded-3xl relative  w-full h-60 overflow-hidden object-cover"
               />
               <div className="">

@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button";
 
 const NavLinks = () => {
   const Links = [
@@ -25,6 +26,7 @@ const NavLinks = () => {
           <a href={link.link}>{link.name}</a>
         </li>
       ))}
+      <Button text="Register" />
     </>
   );
 };

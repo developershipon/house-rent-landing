@@ -5,7 +5,7 @@ import Img from "../Img";
 const Footer = () => {
   return (
     <section className="relative py-5 sm:py-10 md:py-20">
-      <div className="container mx-auto flex flex-wrap justify-between items-center border-b p-5 sm:py-10 sm:px-10 lg:px-20">
+      <div className="container mx-auto flex flex-wrap justify-between items-center border-b p-5 sm:py-10 lg:px-20">
         <div className="w-full lg:w-4/6">
           <div className="flex flex-wrap items-center">
             <div className="px-2">
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-5 sm:px-10 lg:px-20 py-10 flex flex-wrap justify-between gap-y-10">
+      <div className="container mx-auto px-5 lg:px-20 py-10 flex flex-wrap justify-between gap-y-10">
         {Links.map((link, i) => (
           <ul key={i}>
             <h1 className="font-Nunito font-bold text-gray-600 pb-3 text-lg">
@@ -45,6 +45,7 @@ const Footer = () => {
               <img
                 className="h-10 w-10 bg-darkblue rounded-full"
                 src={src.src}
+                alt="image"
               />
             </a>
           ))}
