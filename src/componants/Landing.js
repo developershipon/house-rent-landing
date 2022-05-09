@@ -13,6 +13,7 @@ const Landing = () => {
         <Home />
         <section className="relative">
           <Content
+            to="#"
             order="order-last md:order-first"
             path="left-hero.svg"
             head="Find New Home Is Easy"
@@ -23,6 +24,7 @@ const Landing = () => {
         <Product />
         <section className="relative">
           <Content
+            to="#"
             order="order-last "
             path="right.svg"
             head="Be The One Who Own This"
@@ -32,6 +34,7 @@ const Landing = () => {
         </section>
         <section className="relative">
           <Content
+            to="#"
             order="order-last md:order-none"
             path="left-hero.svg"
             head="10.000+ Happy Customers"
