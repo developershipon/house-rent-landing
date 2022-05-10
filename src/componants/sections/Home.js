@@ -7,7 +7,7 @@ import ParagraphText from "../ParagraphText";
 const Home = () => {
   return (
     <section className="relative pt-20 bg-primary after:clip after:absolute after:top-1 after:h-full after:w-full after:bg-main pb-5">
-      <div className="flex flex-wrap justify-around items-center xl:container mx-auto xl:mb-10">
+      <div className="flex flex-wrap justify-around items-center container mx-auto xl:mb-10">
         <div className="md:w-8/12 z-20">
           <div className="xl:w-8/12">
             <div className="text-white">
